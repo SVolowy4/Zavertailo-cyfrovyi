@@ -1,0 +1,129 @@
+.link {
+  width: 162px;
+}
+header a{
+  color: lightgreen;
+}
+.title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.converter__container {
+  padding: 30px 10px 30px 10px;
+  width: 300px;
+  border: 1px solid white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+}
+.container__top {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    }
+    .top__container {
+      width: 110%;
+      display: flex;
+      justify-content: space-around;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+      .top__button button:hover {
+        color: lightgreen;
+      }
+      .top__input {
+        width: 100%;
+      }
+      .top__input input {
+        text-align: center;
+        width: 100%;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: inherit;
+        font-size: 20px;
+        font-weight: bold;
+        color: lightgreen;
+      }
+      .top__button {
+        width: 100%;
+      }
+      .top__button button {
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid white;
+        background-color: inherit;
+        color: white;
+      }
+      .top__button button:hover {
+        box-shadow: inset -1px -1px 1px 2px white;
+        font-size: 18px;
+      }
+.container__bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bottom__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.container__link {
+  width: 162px;
+  font-size: 20px;
+}
+.container__link a {
+  color: lightgreen;
+}
+.container__result {
+  width: 80px;
+  color: lightgreen;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+}
+.bottom__button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom__button button {
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid white;
+  background-color: inherit;
+  color: white;
+}
+.bottom__button button:hover {
+  color: lightgreen;
+  box-shadow: inset -1px -1px 1px 2px white;
+  font-size: 18px;
+}
+.bottom-container {
+  margin: 10px 0 10px 0;
+}
+.bottom-container__container {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.converter__icon {
+  border: 1px solid lightgreen;
+  padding: 15px;
+}
